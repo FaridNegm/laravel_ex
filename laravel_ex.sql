@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 04, 2023 at 06:20 AM
+-- Generation Time: Nov 04, 2023 at 03:17 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.2
 
@@ -113,14 +113,7 @@ CREATE TABLE `posts` (
 
 INSERT INTO `posts` (`id`, `name`, `description`, `user_id`, `status`, `created_at`, `updated_at`) VALUES
 (1, 'Temporibus.', 'Velit culpa repellendus vero omnis consequatur. Cumque adipisci dolor culpa rerum tempora nisi. Id illo sit corrupti nihil id. Exercitationem sint culpa est et repellat dolores.', 1, 0, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
-(2, 'Beatae.', 'Tempore assumenda atque sapiente temporibus sed rerum eum. Voluptatem pariatur ipsum quam. Quis sunt provident pariatur non. Eum qui iure qui laboriosam veniam quos modi. In et quia aut quisquam.', 2, 1, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
-(3, 'Dicta non.', 'Voluptas et aut ab illo dignissimos vero. Soluta officiis tempora dolorem consequatur earum sit. Dignissimos tempora esse aut laborum sunt. Necessitatibus qui commodi est veniam voluptas nemo.', 1, 1, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
-(4, 'Hic assumenda.', 'Odit provident voluptate beatae quo culpa maiores. Repellat reiciendis et iure eligendi. Voluptatem aspernatur debitis vitae quia quis vel suscipit.', 1, 1, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
-(5, 'Quae.', 'Quae eum voluptatem nisi molestias. Magnam eum maxime eius ut. Rerum sequi id qui labore harum perspiciatis doloribus.', 3, 1, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
-(6, 'Optio voluptatem.', 'Rerum et totam dolor nostrum temporibus ut iusto. Aut quia consequatur eveniet dolores nesciunt quam architecto veritatis. Consequatur voluptatum dolore magni quo. Totam incidunt nemo eum. Odio omnis quia autem veritatis dolor.', 1, 1, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
 (7, 'Velit sed.', 'Quia totam dolor quia voluptas qui. Est soluta vel aspernatur natus maxime qui voluptas. Autem magnam quo non vitae qui quod tempore. Rem distinctio quis qui sit fugit corrupti.', 6, 0, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
-(8, 'Explicabo.', 'Ea in voluptatem sint quod veritatis aut dolorum. Magnam voluptatem aut doloribus ea et. Dignissimos iure ut ipsam aut sint sunt quo consequatur. Distinctio in et voluptatem rerum earum laborum numquam.', 1, 1, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
-(9, 'Et aut.', 'Esse autem porro nobis fugit nemo quam rerum. Dicta qui maiores tempora tenetur qui fuga. In doloremque hic pariatur et. Accusantium iusto autem rerum.', 4, 1, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
 (10, 'Aut.', 'Quasi odio esse molestias. Animi tenetur ut consequatur id. Qui ut eum earum atque.', 4, 1, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
 (11, 'Et dignissimos.', 'Dolorum nemo earum qui iusto consequatur dolorem. Aspernatur et fuga consequatur modi hic alias. Exercitationem voluptas voluptatem rerum voluptatem et non et.', 2, 0, '2023-11-04 03:17:40', '2023-11-04 03:17:40'),
 (12, 'Excepturi sit.', 'Totam ipsum qui iure nam nihil sapiente ut. Aut at consequatur enim et magni quaerat sed reiciendis. Amet porro odit sed aut nam rem. Omnis nihil minus et.', 3, 0, '2023-11-04 03:17:41', '2023-11-04 03:17:41'),
@@ -131,7 +124,12 @@ INSERT INTO `posts` (`id`, `name`, `description`, `user_id`, `status`, `created_
 (17, 'Sed non.', 'Molestias doloremque quis quis alias. Beatae voluptates aut rerum cupiditate odit. Omnis aliquid consequuntur rerum rerum. Dolorum iure excepturi non voluptatum et ipsam porro.', 6, 0, '2023-11-04 03:17:41', '2023-11-04 03:17:41'),
 (18, 'Sit.', 'Voluptates dolorem officia dicta. Deserunt sit dolor nemo eos aut iste doloremque. Nisi voluptatibus vero laborum occaecati beatae esse pariatur. Dolorem deleniti quaerat perspiciatis est voluptas et.', 5, 0, '2023-11-04 03:17:41', '2023-11-04 03:17:41'),
 (19, 'Omnis deserunt.', 'Qui et iste dignissimos aut eaque. Impedit quisquam commodi illum et occaecati quisquam et. Quasi minima laborum molestiae et dolor. Quae sit fugit ut minima laborum minus.', 2, 0, '2023-11-04 03:17:41', '2023-11-04 03:17:41'),
-(20, 'Voluptas labore.', 'Commodi vel sit asperiores. Maiores porro nostrum error eum vel aut. Et rem perspiciatis in tenetur. Ea voluptatem quasi excepturi.', 1, 0, '2023-11-04 03:17:41', '2023-11-04 03:17:41');
+(20, 'Voluptas labore.', 'Commodi vel sit asperiores. Maiores porro nostrum error eum vel aut. Et rem perspiciatis in tenetur. Ea voluptatem quasi excepturi.', 1, 0, '2023-11-04 03:17:41', '2023-11-04 03:17:41'),
+(22, 'عنوان مقال 1', 'وصف مقال 1', 2, 1, '2023-11-04 06:26:42', '2023-11-04 06:26:42'),
+(23, 'عنوان مقال 2', 'وصف مقال 2', 1, 0, '2023-11-04 06:28:15', '2023-11-04 06:28:15'),
+(24, 'nw', 'newwwwwww', NULL, 1, '2023-11-04 09:35:19', '2023-11-04 09:35:19'),
+(25, 'nweeeeeeeee', 'newwwwwww', NULL, 1, '2023-11-04 12:04:54', '2023-11-04 12:04:54'),
+(26, 'nweeeeeeeee', 'newwwwwww', NULL, 1, '2023-11-04 12:05:16', '2023-11-04 12:05:16');
 
 -- --------------------------------------------------------
 
@@ -232,7 +230,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `users`
